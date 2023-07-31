@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+  height: 92vh;
+
+  app-side-bar {
+    width: 20%;
+  }
+  app-board {
+    width: 80%;
+  }
+}

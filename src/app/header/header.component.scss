@@ -1,0 +1,14 @@
+:host {
+  display: block;
+
+  .nav-bar {
+    background-color: chartreuse;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+      margin: 0;
+    }
+  }
+}

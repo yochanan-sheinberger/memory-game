@@ -1,0 +1,57 @@
+:host {
+  display: flex;
+  position: relative;
+
+  .bulbs {
+    width: 450px;
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin: auto;
+    
+    .bulb {
+      width: 150px;
+      height: 150px;
+      background-color: #dbd7cb;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .light-bulb {
+      animation: light-bulb 0.2s;
+    }
+  }
+
+  .game-over {
+    position: fixed !important;
+    display: grid;
+    place-content: center;
+    background-color: #91908c64;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    h2 {
+      font-size: 100px;
+      color: red;
+    }
+
+    button {
+      background-color: greenyellow;
+      border: none;
+      padding: 20px;
+      font-size: 25px;
+      border-radius: 10px;
+    }
+  }
+
+  @keyframes light-bulb {
+    0% {
+      background-color: gold;
+    }
+    100% {
+      background-color: gold;
+    }
+  }
+}

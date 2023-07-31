@@ -1,0 +1,7 @@
+<h2>Please enter your name end press start</h2>
+
+<form [formGroup]="usernameForm" (ngSubmit)="startGame()">
+  <input type="text" formControlName="name" required />
+
+  <button type="submit">START</button>
+</form>

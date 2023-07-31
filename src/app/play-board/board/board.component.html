@@ -1,0 +1,8 @@
+<div class="bulbs">
+  <div *ngFor="let bulb of bulbs" class="bulb" (click)="handleBulbClick(bulb)"></div>
+</div>
+
+<div class="game-over" *ngIf="gameOver">
+  <h2>GAME OVER</h2>
+  <button (click)="restartGame()">New Game</button>
+</div>

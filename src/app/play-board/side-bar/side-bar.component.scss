@@ -1,0 +1,16 @@
+:host {
+  background-color: darkseagreen;
+
+  .section {
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(139, 250, 139);
+    border-radius: 5px;
+    ol {
+      padding-inline-start: 20px;
+      li {
+        margin: 4px 0;
+      }
+    }
+  }
+}

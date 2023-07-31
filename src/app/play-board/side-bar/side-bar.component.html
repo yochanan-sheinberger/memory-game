@@ -1,0 +1,19 @@
+<div class="section">
+  <div><strong>User Name:</strong></div>
+  {{ username | async }}
+</div>
+
+<div class="section">
+  <div><strong>Score:</strong></div>
+  {{ score | async }}
+</div>
+
+<div class="section best-score">
+  <div><strong>Best Score:</strong></div>
+
+  <ol>
+    <li *ngFor="let user of bestScore | async">
+      {{user.username}} {{user.score}}
+    </li>
+  </ol>
+</div>

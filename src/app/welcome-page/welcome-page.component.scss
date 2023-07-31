@@ -1,0 +1,28 @@
+:host {
+  display: grid;
+  height: 92vh;
+  place-content: center;
+  text-align: center;
+  background-color: aqua;
+
+  h2 {
+    font-size: 30px;
+  }
+
+  input {
+    height: 30px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  button {
+    display: block;
+    margin: auto;
+    background-color: greenyellow;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+}
